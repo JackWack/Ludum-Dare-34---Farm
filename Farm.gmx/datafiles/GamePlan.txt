@@ -1,0 +1,10 @@
+Ludum Dare 34
+
+PLAN
+
+Grow crops, make bank
+
+(Assuming 50 frames a second)
+Current crops:		Grow time(frames)	Cost to buy	Cost to sell
+Cress			250 (5)			0		1
+Tomato			500 (5)			5		10
