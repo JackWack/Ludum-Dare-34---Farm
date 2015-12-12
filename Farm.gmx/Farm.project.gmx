@@ -4,10 +4,22 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sounds name="sound">
+    <sound>sound\testSound</sound>
+  </sounds>
+  <sprites name="sprites">
+    <sprite>sprites\testsprite</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\testBackground</background>
+  </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\Square_Plot</object>
+  </objects>
+  <timelines name="timelines">
+    <timeline>timelines\growCress</timeline>
+  </timelines>
   <help>
     <rtf>help.rtf</rtf>
   </help>
