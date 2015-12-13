@@ -40,23 +40,29 @@
     </datafile>
   </datafiles>
   <NewExtensions/>
-  <sounds name="sound">
-    <sound>sound\testSound</sound>
-  </sounds>
+  <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\testsprite</sprite>
+    <sprite>sprites\spr_farmtile</sprite>
+    <sprite>sprites\spr_tomato</sprite>
+    <sprite>sprites\spr_melon</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testBackground</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts"/>
   <objects name="objects">
-    <object>objects\Square_Plot</object>
+    <object>objects\obj_squarePlot</object>
+    <object>objects\obj_master</object>
   </objects>
   <timelines name="timelines">
-    <timeline>timelines\growCress</timeline>
+    <timeline>timelines\tl_growCress</timeline>
+    <timeline>timelines\tl_growTomato</timeline>
+    <timeline>timelines\tl_growMelon</timeline>
   </timelines>
+  <rooms name="rooms">
+    <room>rooms\rm_farm</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
